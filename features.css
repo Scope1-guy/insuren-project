@@ -1,0 +1,116 @@
+.heading{
+  margin-top: 10px;
+  justify-self: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 5px;
+  width: 300px;
+  margin-top: 50px;
+}
+.features h5{
+  font-size: 40px;
+  margin: 0;
+  justify-self: center;
+  text-align: center;
+  width: 450px;
+  letter-spacing: 2px;
+}
+.fourboxes{
+  display: grid;
+  grid-template-columns: 19vw 19vw 19vw 19vw;
+  justify-self: center;
+  margin-top: 20px;
+}
+.box01{
+  width: 16vw;
+  background-color: white;
+  padding: 10px;
+  justify-self: center;
+  border-bottom: 3px darkblue solid;
+  border-radius: 10px;
+  border-left: 0.1px gray solid;
+  border-right: 0.1px gray solid;
+  border-top: 0.1px gray solid;
+}
+.box01 h6{
+  font-size: 28px;
+  font-weight: 400;
+  font-weight: 600;
+  margin: 0;
+}
+.box01 p{
+  width: 14vw;
+  font-size: 28px;
+  margin: 0;
+}
+.aboutss{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 180px;
+}
+.leftarea{
+  
+}
+.family1{
+  width: 80%;
+  position: relative;
+}
+.family2{
+  width: 28%;
+  position: absolute;
+  left: 290px;
+  top: 1450px;
+}
+.textfam{
+  position: absolute;
+  background-color: rgb(6, 156, 206);
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  height: 150px;
+  align-content: center;
+  border-radius: 160px;
+  text-align: center;
+  font-size: 22px;
+  top: 1550px;
+  left: 200px;
+}
+.rightarea h6{
+  font-size: 30px;
+  margin: 0;
+}
+.rightarea h4{
+  font-size: 40px;
+  width: 600px;
+  margin: 0;
+}
+.rightarea p{
+  font-size: 20px;
+  margin-top: 20px;
+  width: 680px;
+}
+.businesses{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.businesses div h6{
+  margin: 0;
+}
+.businesses div p{
+  margin-top: 10px;
+  width: 400px;
+  font-size: 25px;
+}
+.btnb{
+  background-color: darkblue;
+  color: white;
+  width: 180px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
