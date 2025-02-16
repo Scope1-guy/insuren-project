@@ -1,0 +1,25 @@
+.downpart{
+  background-color: rgb(194, 194, 194);
+  padding: 5px;
+}
+.d01{
+  background-color: lightblue;
+  font-size: 25px;
+  justify-self: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+.d02{
+  justify-self: center;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 33px;
+  width: 700px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
