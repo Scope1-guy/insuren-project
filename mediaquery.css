@@ -1,0 +1,136 @@
+@media (max-width: 320px) {
+  body{
+    margin: 3px;
+    padding: 5px;
+  }
+  .header01{
+    display: inline;
+  }
+  .company{
+    font-size: 30px;
+    margin: 0;
+  }
+  .company sub{
+    display: inline;
+  }
+  .header01 ul{ 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header01 ul li{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px ;
+    padding: 3px;
+    list-style-type: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;border: none;
+
+  }
+  .header01 ul li a{
+    font-size: 20px;
+    color: white;
+  }
+  .insurance{
+    padding: 10px;
+    background-size: contain;
+  }
+  .insurance div{
+    width: 260px;
+    background-color: rgba(206, 206, 206, 0.178);
+    margin: 1px;
+    padding: 20px;
+  }
+  .insurance div h6{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  .insurance div p{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+  .insurance div button{
+    border-radius: 2px;
+    width: 40vw;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .heading{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 20px;
+  }
+  .features h5{
+    font-size: 24px;
+    width: 230px;
+  }
+  .fourboxes{
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+  .box01{
+    width: 70vw;
+    text-align: center;
+    justify-items: center;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  .box01 h6{
+    font-size: 30px;
+  }
+  .box01 p{
+    width: 100vw;
+    font-size: 28px;
+    margin: 0;
+    display: inline;
+  }
+  .aboutss{
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .family1{
+    width: 37%;
+  }
+  .family2{
+    width: 90%;
+    left: 15px;
+    top: 1770px;
+  }
+  .textfam{
+    background-color: rgb(6, 156, 206);
+    width: 100px;
+    height: 100px;
+    font-size: 13px;
+    top: 1700px;
+    left: 100px;
+  }
+  .rightarea{
+    margin-top: 205px;
+  }
+  .rightarea h6{
+    font-size: 20px;
+    margin: 0;
+  }
+  .rightarea h4{
+    font-size: 20px;
+    width: 300px;
+  }
+  .rightarea p{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 290px;
+  }
+  .businesses{
+    grid-template-columns: 1fr;
+  }
+  .iconsflex{
+    display: flex;
+    align-items: center;
+  }
+}
